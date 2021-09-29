@@ -33,7 +33,12 @@ var questionFour={
   answer:"neogcamp"
 }
 
-var question=[questionOne,questionTwo,questionThree,questionFour];
+var questionFive={
+  question:"\nWhat is my favorite color?\n",
+  answer:"blue"
+}
+
+var question=[questionOne,questionTwo,questionThree,questionFour,questionFive];
 
 function play(question,answer){
     var userAns=readlineSync.question(question);
